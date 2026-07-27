@@ -1,0 +1,200 @@
+.contact {
+  position: relative;
+  padding: 112px 0;
+  overflow: hidden;
+  background: linear-gradient(112deg, #0874d4 0%, #0b4a94 48%, #071b33 100%);
+  color: var(--white);
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  right: -90px;
+  bottom: -270px;
+  width: 450px;
+  height: 450px;
+  border: 82px solid rgba(255, 107, 44, 0.25);
+  border-radius: 50%;
+}
+
+.contact__inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.18fr 0.82fr;
+  align-items: center;
+  gap: 80px;
+}
+
+.contact__eyebrow {
+  margin: 0 0 13px;
+  color: #9bddff;
+  font-family: var(--font-display);
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.contact h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(3.5rem, 5.8vw, 5.65rem);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 0.93;
+  text-transform: uppercase;
+}
+
+.contact h2 span {
+  color: #ff913f;
+}
+
+.contact__lead {
+  max-width: 650px;
+  margin: 24px 0 32px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.03rem;
+  line-height: 1.72;
+}
+
+.contact__actions {
+  display: flex;
+  gap: 13px;
+}
+
+.contact__call {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 9px 22px;
+  border-radius: 11px;
+  background: var(--white);
+  color: var(--navy-950);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+}
+
+.contact__call > span:first-child {
+  color: var(--orange-500);
+  font-size: 1.65rem;
+}
+
+.contact__call small,
+.contact__call strong {
+  display: block;
+}
+
+.contact__call small {
+  color: #6b7d90;
+  font-size: 0.7rem;
+}
+
+.contact__call strong {
+  margin-top: 2px;
+  font-size: 1.08rem;
+}
+
+.contact__financing {
+  min-height: 64px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 23px;
+  border: 1px solid rgba(255, 255, 255, 0.58);
+  border-radius: 11px;
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  transition: background 180ms ease;
+}
+
+.contact__financing:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.contact__card {
+  padding: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 18px;
+  background: rgba(6, 23, 44, 0.49);
+  box-shadow: 0 22px 55px rgba(0, 0, 0, 0.24);
+  backdrop-filter: blur(12px);
+}
+
+.contact__pin {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 23px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--orange-500), var(--orange-600));
+}
+
+.contact__card > p {
+  margin: 0 0 7px;
+  color: #9bddff;
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.contact__card h3 {
+  margin: 0 0 14px;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.contact__card address {
+  margin-bottom: 22px;
+  color: rgba(255, 255, 255, 0.76);
+  font-style: normal;
+  line-height: 1.7;
+}
+
+.contact__card > a {
+  font-weight: 900;
+}
+
+.contact__card > a span {
+  margin-left: 8px;
+  color: var(--orange-400);
+}
+
+.contact__promise {
+  margin-top: 29px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.contact__promise strong,
+.contact__promise small {
+  display: block;
+}
+
+.contact__promise small {
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 900px) {
+  .contact__inner {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 580px) {
+  .contact {
+    padding: 84px 0;
+  }
+
+  .contact__actions {
+    flex-direction: column;
+  }
+
+  .contact__card {
+    padding: 28px 24px;
+  }
+}
