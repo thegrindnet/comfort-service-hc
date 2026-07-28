@@ -1,12 +1,12 @@
-import gallery01 from "../assets/images/gallery-01.webp";
-import gallery02 from "../assets/images/gallery-02.webp";
+import gallery01 from "../assets/images/gallery-01.jpeg";
+import gallery02 from "../assets/images/gallery-02.jpeg";
 import gallery03 from "../assets/images/gallery-03.webp";
-import gallery04 from "../assets/images/gallery-04.webp";
-import gallery05 from "../assets/images/gallery-05.webp";
-import gallery06 from "../assets/images/gallery-06.webp";
-import gallery07 from "../assets/images/gallery-07.webp";
-import gallery08 from "../assets/images/gallery-08.webp";
-import gallery09 from "../assets/images/gallery-09.webp";
+import gallery04 from "../assets/images/gallery-04.jpeg";
+import gallery05 from "../assets/images/gallery-05.jpeg";
+import gallery06 from "../assets/images/gallery-06.jpeg";
+import gallery07 from "../assets/images/gallery-07.jpeg";
+import gallery08 from "../assets/images/gallery-08.jpeg";
+import gallery09 from "../assets/images/gallery-09.jpeg";
 
 export const business = {
   name: "Comfort Service H&C LLC",

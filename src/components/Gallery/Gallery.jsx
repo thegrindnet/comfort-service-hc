@@ -37,8 +37,8 @@ function Gallery() {
           </div>
           <div>
             <p className="gallery__intro">
-              Explore the equipment, installation work, and home-comfort services
-              represented in this gallery.
+              Explore the equipment, installation work, and home-comfort
+              services represented in this gallery.
             </p>
             <p className="gallery__disclosure">
               Illustrative images—replace with actual Comfort Service project

@@ -1,4 +1,4 @@
-import heroImage from "../../assets/images/hvac-technician-hero.webp";
+import heroImage from "../../assets/images/hero.png";
 import { business } from "../../utils/constants.js";
 import "./Hero.css";
 
