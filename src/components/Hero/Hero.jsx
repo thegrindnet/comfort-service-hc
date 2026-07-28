@@ -23,35 +23,45 @@ function Hero() {
             <br />
             shows up in
             <br />
-            <span className="hero__title-accent hero__title-accent--cold">one</span>{" "}
-            <span className="hero__title-accent hero__title-accent--hot">day.</span>
+            <span className="hero__title-accent hero__title-accent--cold">
+              one
+            </span>{" "}
+            <span className="hero__title-accent hero__title-accent--hot">
+              day.
+            </span>
           </h1>
           <p className="hero__description">
             One-day installations, financing options, and family-owned service
             focused on quality work.
           </p>
           <div className="hero__actions">
-            <a className="hero__button hero__button--primary" href={business.phoneHref}>
+            <a
+              className="hero__button hero__button--primary"
+              href={business.phoneHref}
+            >
               <span aria-hidden="true">☎</span>
               <span>
                 <strong>Call now</strong>
                 <small>{business.phoneDisplay}</small>
               </span>
             </a>
-            <a className="hero__button hero__button--secondary" href="#financing">
+            <a
+              className="hero__button hero__button--secondary"
+              href="#financing"
+            >
               Financing options
               <span aria-hidden="true">→</span>
             </a>
           </div>
         </div>
-
+        {/* 
         <aside className="hero__badge" aria-label="Fast, clean, professional service">
           <span>Fast</span>
           <i aria-hidden="true" />
           <span>Clean</span>
           <i aria-hidden="true" />
           <span>Professional</span>
-        </aside>
+        </aside> */}
       </div>
     </section>
   );
