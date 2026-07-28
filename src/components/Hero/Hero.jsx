@@ -1,5 +1,6 @@
 import heroImage from "../../assets/images/hero.png";
 import { business } from "../../utils/constants.js";
+import bbb from "../../assets/images/bbb.png";
 import "./Hero.css";
 
 function Hero() {
@@ -14,8 +15,13 @@ function Hero() {
 
       <div className="hero__inner section-shell">
         <div className="hero__content">
+          <img
+            className="hero__bbb"
+            src={bbb}
+            alt="Better Business Bureau Logo"
+          />
           <p className="hero__eyebrow">
-            Canutillo heating &amp; cooling
+            Starting at $3,500 with installation
             <span aria-hidden="true" />
           </p>
           <h1 className="hero__title" id="hero-title">

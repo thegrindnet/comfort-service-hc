@@ -22,8 +22,7 @@
   position: absolute;
   z-index: -2;
   inset: 0;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       104deg,
       #041326 0%,
       #041326 35%,
@@ -61,6 +60,10 @@
   animation: hero-content-in 560ms ease-out both;
 }
 
+.hero__bbb {
+  width: 150px;
+}
+
 .hero__eyebrow {
   display: flex;
   align-items: center;
@@ -68,10 +71,13 @@
   margin: 0 0 18px;
   color: var(--blue-300);
   font-family: var(--font-display);
-  font-size: 0.98rem;
+  font-size: 1.3rem;
   font-weight: 800;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 0 5px #ff6b2c, 0 0 10px #ff6b2c, 0 0 20px #ff6b2c,
+    0 0 40px #ff6b2c, 0 0 150px #ff6b2c;
 }
 
 .hero__eyebrow span {
@@ -127,10 +133,7 @@
   font-weight: 900;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  transition:
-    transform 180ms ease,
-    background 180ms ease,
-    box-shadow 180ms ease,
+  transition: transform 180ms ease, background 180ms ease, box-shadow 180ms ease,
     color 180ms ease;
 }
 
@@ -277,6 +280,10 @@
   .hero__content {
     width: 76%;
   }
+
+  .hero__eyebrow span {
+    width: 28px;
+  }
 }
 
 @media (max-width: 620px) {
@@ -296,7 +303,11 @@
   }
 
   .hero__overlay {
-    background: linear-gradient(90deg, rgba(4, 19, 38, 0.98), rgba(4, 19, 38, 0.79));
+    background: linear-gradient(
+      90deg,
+      rgba(4, 19, 38, 0.98),
+      rgba(4, 19, 38, 0.79)
+    );
   }
 
   .hero__content {
@@ -305,7 +316,7 @@
 
   .hero__eyebrow {
     gap: 12px;
-    font-size: 0.74rem;
+    font-size: 1rem;
   }
 
   .hero__eyebrow span {
