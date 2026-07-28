@@ -1,6 +1,6 @@
 import gallery01 from "../assets/images/gallery-01.jpeg";
 import gallery02 from "../assets/images/gallery-02.jpeg";
-import gallery03 from "../assets/images/gallery-03.webp";
+import gallery03 from "../assets/images/gallery-03.jpeg";
 import gallery04 from "../assets/images/gallery-04.jpeg";
 import gallery05 from "../assets/images/gallery-05.jpeg";
 import gallery06 from "../assets/images/gallery-06.jpeg";
@@ -101,7 +101,7 @@ export const galleryItems = [
   {
     src: gallery03,
     alt: "HVAC technician installing a smart wall thermostat",
-    label: "Thermostat setup",
+    label: "Trusted Service",
   },
   {
     src: gallery04,

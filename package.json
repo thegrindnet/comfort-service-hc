@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://thegrindnet.github.io/comfort-service-hc/",
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
